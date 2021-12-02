@@ -20,3 +20,4 @@ urlpatterns = [
     path('', include('studybud.base.urls')),
     path('admin/', admin.site.urls),
 ]
+
