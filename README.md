@@ -2,6 +2,9 @@
 Sistema de gerenciamento de Estudos - Projeto de aprendizagem Youtube - Dennis Ivy
 https://www.youtube.com/watch?v=PtQiiknWUcI
 
+#### Senha padrão para rodar o projeto: admin | admin@estudecomigo.com | admin123
+
+
 ##PASSO A PASSO
 * Criar uma pasta de trabalho mkdir nome-da-pasta-de-trabalho (EstudeComigo)
 * git init 
