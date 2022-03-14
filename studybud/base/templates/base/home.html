@@ -17,14 +17,14 @@
             <li><a  href="{% url 'home' %}" >Todos</a></li>
 
             {% for topic in topics %}
-                <li><a  href="{% url 'home' %}?q={{topic.name}}" >{{topic.name} <span>1</span></a></li>
+                <li><a  href="{% url 'home' %}?q={{topic.name}}" >{{topic.name}} <span>1</span></a></li>
             {% endfor %}
          </ul>
     </div>
 
     <div>
-        <a  href="{%  url 'create-room' %}">Create Room</a><br/>
-
+        <h5>{{room_count}} disponiveis</h5>
+        <a  href="{%  url 'create-room' %}">Create Room</a><br/>        
         {% for room in rooms %}
         <div>
             <a  href="{%  url 'update-room' room.id %}">Update Room</a>
